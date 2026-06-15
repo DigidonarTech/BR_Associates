@@ -1,16 +1,44 @@
-# React + Vite
+# BR Associates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional real estate website for **BR Associates**, designed to showcase property services such as buying, selling, renting, and real estate consultation in Bangalore.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+BR Associates helps customers explore real estate options with professional guidance, transparent support, and quick communication through call and WhatsApp.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern responsive design
+- Hero section with background image slider
+- Service sections for real estate support
+- WhatsApp and call buttons
+- Clean navigation
+- Mobile-friendly layout
+- Professional UI using Tailwind CSS
+- Vercel-ready deployment setup
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- Lucide React Icons
+- JavaScript
+
+## Folder Structure
+
+```txt
+BR_Associates/
+├── public/
+│   └── images/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vercel.json
+└── README.md
