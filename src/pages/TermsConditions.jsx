@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 import { siteData } from "../data/siteData";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const TermsConditions = () => {
   return (
+    <>
+    <Navbar />
     <main className="min-h-screen bg-slate-50">
       <section className="bg-slate-950 text-white py-16">
         <div className="max-w-4xl mx-auto px-4">
@@ -60,6 +64,8 @@ const TermsConditions = () => {
         </div>
       </section>
     </main>
+    <Footer />
+    </>
   );
 };
 
